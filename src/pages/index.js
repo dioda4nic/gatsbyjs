@@ -23,103 +23,12 @@ function Index() {
     <title></title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="default.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="third_party/css/bootstrap.css" />  
     <script type="text/javascript" async  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=MML_HTMLorMML"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <style>
-       html {
-         font-size: 100%;
-       }
-       body {  
-  font-size: 16px;
-  font-size: 1vw;  
-  /* устанавливаем размеры шрифтов по умолчанию, чтобы быть уверенными, что размера в 10 пикселей у нас нигде не будет */
-}
-h1{
-  padding: 0.1vh;
-  margin-left: 0.9vw;
-}
-      ul {
-  list-style: none;
-  padding: 0.1vh;
-  letter-spacing: 0.1vw;
-}
-pre{
-  margin-left: 0.9vw;
-  padding-left: 1vw;
-
-}
-code{
-  background-color: #f3f2f6d6;
-  
-}
-li {
-  padding-left: 1em;
-}
-li#news:before {
-  content: "\f046"; /* FontAwesome Unicode */
-  font-family: FontAwesome;
-  display: inline-block;
-  margin-left: -1em; /* same as padding-left set on li */
-  width: 1em; /* same as padding-left set on li */
-}
-.description1 {
-  display:inline-block;
-        width: 50%;
-        font-size: 1.37vw;  
-        word-wrap: break-word;
-        word-break: normal; /* более приоритетно */
-        margin-left: 0.9vw;
-      }
-      .description2 {
-  display:inline-block;
-        width: 53%;
-        font-size: 1.37vw;  
-        word-wrap:  break-word;
-        word-break: normal; /* более приоритетно */
-        margin-left: 0.9vw;
-        white-space: pre-wrap;
-      }
-
-
-      *{
-  box-sizing: border-box;
-}
-.description3 {
-  word-wrap: normal;
-  font-size: 1.37vw;  
-  margin-left: 0.9vw;
-  width: 50%;
-  background-color: #f3f2f6d6;
-  padding-top: 0.9vw; 
-  padding-bottom: 0.0vw;
-}
-
-table.mytable{
-	width: 100%;
-	border-collapse:collapse;
-	border-spacing:0;
-	height: auto;
-}
-table.mytable,table.mytable td, table.mytable th {
-	border: 1px solid #595959;
-}
-table.mytable td,table.mytable th {
-	padding: 3px;
-	width: 10vw;
-	height: 5vh;
-  text-align: left;
-}
-table.mytable th {
-	background: #347c99; 
-	color: #fff; 
-	font-weight: normal;
-}
-
-
-    </style>
+    
   </head>
   <body>
     <!--[if lt IE 7]>
